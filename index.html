@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshi </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #0e141c;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: #1b1b3f;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(207, 237, 96);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(243, 109, 196);
+            height: 1.2px;
+            margin: 40px 84px
+        }
+
+        .left {
+
+            font-size: 2.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 50%
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 23px;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .pink {
+            color: #e160c7;
+        }
+
+        #element {
+            color: #7dc7de;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vhb;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: rgb(205, 62, 153);
+            width: 75vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: rgb(205, 62, 153);
+            margin: 0 190px;
+
+        }
+
+        .imagetop {
+            width: 40px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 18px;
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 80px;
+            color: rgb(178, 222, 149);
+            width: 150px;
+            font-size: 13px;
+        }
+
+        footer{
+            background-color:purple;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+           
+        }
+
+
+        .textgray {
+            color: gray;
+            font-size: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Priyanshi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, I'm <span class="pink">Priyanshi</span>
+                <div> and I am a </div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">Let's see ! My Education</span>
+            <h1>Education</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="imagetop" src="college.jpeg" alt="">
+                    <div class="vertical-title">
+                        Bachlelor of Technology (2021-2025)
+                    </div>
+                    <div class="vertical-desc">
+                        Computer Science Engineering | Cyber Security |9.16CGPA
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="12th.jpeg" alt="">
+                    <div class="vertical-title">
+                        Higher Secondary School (2020)
+                    </div>
+
+                    <div class="vertical-desc">
+                        85%,KV 2 APS Delhi Cantt
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src="12th.jpeg" alt="">
+                    <div class="vertical-title">
+                        Secondary School (2018)
+                    </div>
+                    <div class="vertical-desc">
+                        88%,KV 2 APS Delhi Cantt
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+        <div class="footer">
+            <div class="first-footer"></div>
+            <h3>Priyanshi's Portfolio</h3>
+            <div class="second">
+
+            </div>
+            <div class="third">
+
+            </div>
+            <div class="forth"></div>
+        </div>
+    </footer> -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['passionate Web Developer', 'Cyber security enthusiast', 'passionate Machine learning engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
