@@ -1,0 +1,12 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "A description of your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
